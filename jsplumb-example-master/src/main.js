@@ -20,7 +20,10 @@ import 'jsplumb/css/jsplumbtoolkit-defaults.css';
 
 // html2canvas
 import html2canvas from 'html2canvas';
+import VueMaterial from 'vue-material'
+import 'vue-material/dist/vue-material.min.css'
 
+Vue.use(VueMaterial)
 Vue.use(ElementUI);
 
 Vue.config.productionTip = false
